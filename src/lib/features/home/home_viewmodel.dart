@@ -1,3 +1,4 @@
+
 import 'package:my_app/app/app.bottomsheets.dart';
 import 'package:my_app/app/app.dialogs.dart';
 import 'package:my_app/app/app.locator.dart';
@@ -13,7 +14,7 @@ class HomeViewModel extends BaseViewModel {
   int _counter = 0;
 
   void incrementCounter() {
-    _counter++;
+    _counter += 2;
     rebuildUi();
   }
 
